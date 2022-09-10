@@ -89,3 +89,17 @@ print("Print each county and registered voter from the dictionary")
 voting_data = [{"county":"Arapahoe", "registered_voters": 422829}, {"county":"Denver", "registered_voters": 463353}, {"county":"Jefferson", "registered_voters": 432438}]
 for dictio in voting_data:
     print(f"{dictio['county'] } county has a total of {dictio['registered_voters']} voters")
+
+print("--------------")
+
+# Import the datetime class from the datetime module.
+import datetime as dt
+# Use the now() attribute on the datetime class to get the present time.
+now = dt.datetime.now()
+# Print the present time.
+print("The time right now is ", now)
+
+print("--------------")
+import csv
+dir(csv)
+dir (int)
