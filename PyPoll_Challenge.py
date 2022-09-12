@@ -113,13 +113,19 @@ with open(file_to_save, "w") as txt_file:
         txt_file.write(county_results)
          
          # 6f: Write an if statement to determine the winning county and get its vote count.
-        if (county_votes > winning_county_count) and (county_percentage > winning_county_percentage):
+        if (votes > winning_county_count) and (county_percentage > winning_county_percentage):
             winning_county_count = votes
             winning_county = county_name
-            winning_county_percentage = vote_percentage
+            winning_county_percentage = county_percentage
 
     # 7: Print the county with the largest turnout to the terminal.
-
+    winning_county_summary = (
+        f"-------------------------\n"
+        f"Winner: {winning_county}\n"
+        f"Winning Vote Count: {winning_county_count:,}\n"
+        f"Winning Percentage: {winning_county_percentage:.1f}%\n"
+        f"-------------------------\n")
+    print(winning_county_summary)
 
     # 8: Save the county with the largest turnout to a text file.
 
