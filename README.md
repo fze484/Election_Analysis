@@ -1,6 +1,6 @@
 # Election_Analysis
 
-# Overview of Election Audit: Explain the purpose of this election audit analysis.
+# Overview of Election Audit: 
 In this assignment I assisted a Colorado board of elections employee in an election audit of the tabulated results for a U.S. congressional precinct in Colorado. I was tasked with reporting the total number of votes cast, the total number of votes for each candidate and county, the percentage of votes for each candidate and county, and the winner of the election based on the popular vote.
 
 # Election-Audit Results: 
