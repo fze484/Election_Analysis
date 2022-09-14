@@ -5,7 +5,7 @@ In this assignment I assisted a Colorado board of elections employee in an elect
 
 # Election-Audit Results: 
 
-## Votes were cast in this congressional election.
+## Total votes.
 In this election, there were 369,711 votes cast.
 
 ## Breakdown of the number of votes and the percentage of total votes for each county in the precinct.
