@@ -25,10 +25,12 @@ The winning county was Denver, with nearly 83% of the popular vote.
 The winner of the election is Diana DeGette, who received 73.8% of the votes (272,892).
 
 ### Terminal screenshot 
+<img width="614" alt="Screen Shot 2022-09-13 at 21 14 43" src="https://user-images.githubusercontent.com/80678332/190037369-4fef61aa-04ae-4c79-b362-a3d89b56c2f2.png">
 
 
 ### Text file screenshot 
 
+<img width="491" alt="Screen Shot 2022-09-13 at 21 15 33" src="https://user-images.githubusercontent.com/80678332/190037380-3009224a-001d-4e12-9dbd-71c60a1b117e.png">
 
 # Election-Audit Summary: 
 This script could be further enhanced to estimate the votes that were cast by gender. This could be useful in seeing which gender voted most for which candidate and in which county. To get the gender count, a gender column would need to be first added to the dataset. Then, inside the for loop, we can count the votes by gender by iterating through the rows.   
